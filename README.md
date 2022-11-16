@@ -22,7 +22,9 @@ Refer `swagger.yml` for restapi calls
 
 ```
  create table person (id int(10) primary key not null auto_increment, fname varchar(255), lname varchar(255));
-```
+```  
+4. Update the eth-stack's galara db (any node) endpoint to `people.py` file - pymysql.connect section    
+
 # Build and run
 
 1. Make virtual env
