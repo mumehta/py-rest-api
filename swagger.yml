@@ -1,0 +1,37 @@
+openapi: 3.0.0
+info:
+  title: Flask REST API"
+  description: "An API about people"
+  version: "1.0.0"
+
+servers:
+  - url: "/api"
+
+paths:
+  /get-people-file:
+    get:
+      operationId: "people.read_all"
+      tags:
+        - "People"
+      summary: "Read the list of people from file"
+      responses:
+        "200":
+          description: "Successfully read people list"
+  /get-people-web:
+    get:
+      operationId: "people.fetch_all"
+      tags:
+        - "People"
+      summary: "Fetch the list of people from web"
+      responses:
+        "200":
+          description: "Successfully read people list"
+  /save-people-db:
+    get:
+      operationId: "people.save_all"
+      tags:
+        - "People"
+      summary: "Fetch the list of people from web"
+      responses:
+        "200":
+          description: "Successfully read people list"

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A simple python rest Api </title>
+</head>
+<body>
+    <h1>
+        Users from Rest Api <a href="https://my-json-server.typicode.com/mumehta/py-rest-api">py-rest-api</a>
+    </h1>
+    <ul>
+        {% for person in people %}
+        <li>{{ person.fname }} {{ person.lname }}</li>
+        {% endfor %}
+    </ul>    
+</body>
+</html>
