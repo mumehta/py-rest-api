@@ -1,5 +1,7 @@
 # A simple python, flask, mysql, restapi, swagger app  
 
+By no means this is a best practices example application. It does basic plumbing to get the tasks done. This application is a python restapi application which utlises the power of swagger to fetch data from open web service which return some json data. It can store data to local file and also to mysql database.
+
 ## What it does  
 
 Refer `swagger.yml` for restapi calls  
